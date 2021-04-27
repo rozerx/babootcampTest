@@ -21,6 +21,6 @@ spec:
     spec:
       containers:
       - name: bootcamp-html
-        image: rozerx/babootcampTest:v$DOCKER_BUILD_NUMBER
+        image: ramozer/babootcamp:v$DOCKER_BUILD_NUMBER
         ports:
         - containerPort: 80
